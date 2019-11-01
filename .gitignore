@@ -1,0 +1,7 @@
+﻿# Default ignored files
+/workspace.xml
+/.vs
+/.idea
+/obj
+/bin
+*.user
