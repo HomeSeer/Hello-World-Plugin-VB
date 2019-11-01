@@ -130,7 +130,9 @@
     </HtmlFiles>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="html\sample-blank.html" />
+    <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Target Name="AfterBuild" Condition=" '$(Configuration)|$(Platform)' == 'DirectToHs|AnyCPU' ">
